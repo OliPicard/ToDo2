@@ -148,5 +148,10 @@ namespace ToDo2
             boxFive.Foreground = new SolidColorBrush(Colors.Black);
         }
 
+        private void Source(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/OliPicard/ToDo2");
+        }
+
     }
 }
