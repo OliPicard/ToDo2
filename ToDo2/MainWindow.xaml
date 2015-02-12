@@ -1,0 +1,22 @@
+﻿<Window x:Class="ToDo2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="2Do" Height="350" Width="525" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight">
+    <Grid x:Name="Reset">
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="23" Margin="44,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178"/>
+        <TextBlock x:Name="boxOne" HorizontalAlignment="Left" Margin="234,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="boxTwo" HorizontalAlignment="Left" Margin="234,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="boxThree" HorizontalAlignment="Left" Margin="234,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="boxFour" HorizontalAlignment="Left" Margin="234,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="boxFive" HorizontalAlignment="Left" Margin="234,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="execute" Content="ToDo" HorizontalAlignment="Left" Margin="252,42,0,0" VerticalAlignment="Top" Width="75" Click="execute_Click"/>
+        <CheckBox x:Name="chkOne" Content="" HorizontalAlignment="Left" Margin="105,110,0,0" VerticalAlignment="Top" Checked="chkOneEvent" Unchecked="ChkOneReload"/>
+        <CheckBox x:Name="chkTwo" Content="" HorizontalAlignment="Left" Margin="105,130,0,0" VerticalAlignment="Top" Checked="chkTwoEvent" Unchecked="chkTwoReload"/>
+        <CheckBox x:Name="chkThree" Content="" HorizontalAlignment="Left" Margin="105,150,0,0" VerticalAlignment="Top" Checked="chkThreeEvent" Unchecked="chkThreeReload"/>
+        <CheckBox x:Name="chkFour" Content="" HorizontalAlignment="Left" Margin="105,173,0,0" VerticalAlignment="Top" Checked="chkfourEvent" Unchecked="chkfourrollback"/>
+        <CheckBox x:Name="chkFive" Content="" HorizontalAlignment="Left" Margin="105,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.467" Checked="chkFiveEvent" Unchecked="chkFiveReload"/>
+        <Button x:Name="Reset1" Content="Reset" HorizontalAlignment="Left" Margin="356,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label x:Name="credits" Content="Another useless creation by OliPicard." HorizontalAlignment="Left" Margin="295,283,0,0" VerticalAlignment="Top" Foreground="#FFD8D8D8"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="5,217,0,0" VerticalAlignment="Top" Width="100" Source="pack://application:,,,/Resources/todo2.png"/>
+    </Grid>
+</Window>
