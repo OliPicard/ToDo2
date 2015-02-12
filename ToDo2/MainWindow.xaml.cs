@@ -89,14 +89,19 @@ namespace ToDo2
             debian = 0;
             boxOne.Text = "";
             boxOne.Foreground = new SolidColorBrush(Colors.Black);
+            chkOne.IsChecked = false;
             boxTwo.Text = "";
             boxTwo.Foreground = new SolidColorBrush(Colors.Black);
+            chkTwo.IsChecked = false;
             boxThree.Text = "";
             boxThree.Foreground = new SolidColorBrush(Colors.Black);
+            chkThree.IsChecked = false;
             boxFour.Text = "";
             boxFour.Foreground = new SolidColorBrush(Colors.Black);
+            chkFour.IsChecked = false;
             boxFive.Text = "";
             boxFive.Foreground = new SolidColorBrush(Colors.Black);
+            chkFive.IsEnabled = false;
             execute.IsEnabled = true;
         }
 
