@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ToDo2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="2Do" Height="350" Width="525" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+        Title="ToDo2" Height="350" Width="525" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
     <Grid x:Name="Reset">
         <TextBox x:Name="input" HorizontalAlignment="Left" Height="23" Margin="44,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178"/>
         <TextBlock x:Name="boxOne" HorizontalAlignment="Left" Margin="234,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
